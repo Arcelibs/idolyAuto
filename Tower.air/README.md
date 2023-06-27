@@ -11,7 +11,7 @@ ADB 串接你的手機或者模擬器
 * 手機的話要開啟偵錯，IOS未實驗過不能保證
 
 起始頁面是有確定的那一頁，然後執行腳本
-![](https://hackmd.io/_uploads/S1jQJRP_3.png)
+![image](https://hackmd.io/_uploads/S1jQJRP_3.png)
 
 
 

@@ -55,6 +55,10 @@ while(count < 100):
     if q <= 10:
         touch(Template(r"tpl1687758590394.png", record_pos=(0.343, 0.688), resolution=(720, 1280)))
         sleep(5)
+        # 不存在終了時點確定
+        if not exists(Template(r"tpl1687758590394.png", threshold=0.8)):
+            touch(Template(r"tpl1687758518301.png", record_pos=(0.328, 0.676), resolution=(720, 1280)))
+            break
     
 
     count += 1

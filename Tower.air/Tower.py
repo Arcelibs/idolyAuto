@@ -4,6 +4,7 @@ from airtest.core.api import *
 auto_setup(__file__)
 count = 0
 q = 0
+r = 0
 while(count < 100):
     while not exists(Template(r"tpl1687758518301.png", threshold=0.8)):
         sleep(3)
@@ -36,7 +37,10 @@ while(count < 100):
         # 例外:如果檢測到終了出現則點終了
         if exists(Template(r"tpl1687758590394.png", threshold=0.8)):
             touch(Template(r"tpl1687758590394.png", record_pos=(0.225, 0.815), resolution=(720, 1280)))
-    touch(Template(r"tpl1687767147552.png", record_pos=(0.003, 0.778), resolution=(720, 1280)))
+            break
+            
+    if exists(Template(r"tpl1687767147552.png", threshold=0.8)):    
+        touch(Template(r"tpl1687767147552.png", record_pos=(0.003, 0.778), resolution=(720, 1280)))
     sleep(5)
     
     while not exists(Template(r"tpl1687758590394.png", threshold=0.8)):
@@ -54,3 +58,4 @@ while(count < 100):
     
 
     count += 1
+

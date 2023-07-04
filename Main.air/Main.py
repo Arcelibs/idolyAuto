@@ -14,6 +14,11 @@ while True:  # 無限迴圈
     if exists(Template(r"tpl1688025813623.png", record_pos=(-0.265, 0.633), resolution=(720, 1280))):
         touch(Template(r"tpl1688025823554.png", record_pos=(-0.274, 0.632), resolution=(720, 1280)))
     sleep(5)
+    
+    if exists(Template(r"tpl1688374634594.png", record_pos=(0.343, 0.025), resolution=(720, 1280))):
+        touch(Template(r"tpl1688374657321.png", record_pos=(0.34, 0.026), resolution=(720, 1280)))
+    
+    sleep(5)
 
     if exists(Template(r"tpl1688025840441.png", record_pos=(0.344, 0.689), resolution=(720, 1280))):
         touch(Template(r"tpl1688025846359.png", record_pos=(0.34, 0.693), resolution=(720, 1280)))
@@ -24,6 +29,12 @@ while True:  # 無限迴圈
         touch(Template(r"tpl1688026486986.png", record_pos=(0.246, 0.797), resolution=(720, 1280)))
 
     sleep(5)
+    
+    if exists(Template(r"tpl1688374970896.png", record_pos=(-0.001, 0.772), resolution=(720, 1280))):
+        touch(Template(r"tpl1688374987171.png", record_pos=(-0.003, 0.771), resolution=(720, 1280)))
+        
+    sleep(5)
+
 
     #如果終了就點他
     if exists(Template(r"tpl1688026591845.png", record_pos=(0.351, 0.685), resolution=(720, 1280))):
